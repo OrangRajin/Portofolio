@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signupRes.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon"> 
+    <title>Doto 2</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <a href="../html/home.html">
+                    <img src="../assets/Logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <div class="page">
+                    <a href="../html/heroes.html">Heroes</a>
+                </div>
+                <div class="page">
+                    <a href="../html/mechanics.html">Game Mechanics</a>
+                </div>
+                <div class="page">
+                    <a href="../html/merchandises.html">Merchandises</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="regist">
+                <a href="../html/signup.html">Sign Up</a>
+            </div>
+            <div class="menu-icon">
+                <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
+
+                <div class="menu-wrap">
+                    <li class="menu-item">
+                        <a href="../html/heroes.html">Heroes</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../html/mechanics.html">Game Mechanics</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../html/merchandises.html">Merchandises</a>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="Body">
+        <div class="Sign-Up">
+            <h1 class="judul">SIGN UP</h1>
+            <form onsubmit="return validate()">
+                <div>
+                    <label>Username</label>
+                    <div><input type="text" id="username" placeholder="username"></div>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <div><input type="text" id="email" placeholder="email"></div>
+                </div>
+                <div>
+                    <label>Password</label>
+                    <div><input type="password" id="password" placeholder="password"></div>
+                </div>
+                <div>
+                    <label>Region</label>
+                    <div>
+                        <select name="" id="Region" aria-placeholder="">
+                            <optgroup label="Benua Afrika">
+                                <option value="Afrika Selatan">Afrika Selatan</option>
+                                <option value="Aljazair">Aljazair</option>
+                                <option value="Etiopia">Etiopia</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Kenya">Kenya</option>
+                            </optgroup>
+                            <optgroup label="Benua Asia ">
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Arab Saudi">Arab Saudi</option>
+                                <option value="India">India</option>
+                                <option value="Singapura">Singapura</option>
+                            </optgroup>
+                            <optgroup label="Benua Eropa ">
+                                <option value="Inggris">Inggris</option>
+                                <option value="Jerman">Jerman</option>
+                                <option value="Belanda">Belanda</option>
+                                <option value="Prancis">Prancis</option>
+                                <option value="Rusia">Rusia</option>
+                            </optgroup>
+                            <optgroup label="Benua Amerika">
+                                <option value="Amerika Serikat">Amerika Serikat</option>
+                                <option value="Kanada">Kanada</option>
+                                <option value="Meksiko">Meksiko</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brazil">Brazil</option>
+                            </optgroup>
+                            <optgroup label="Benua Oseania">
+                                <option value="Australia">Australia</option>
+                                <option value="Selandia Baru">Selandia Baru</option>
+                                <option value="Papua Nugini">Papua Nugini</option>
+                                <option value="Samoa">Samoa</option>
+                                <option value="Palau">Palau</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="dob">
+                    <label for="">Date of Birth</label>
+                    <div>
+                        <input type="date" id="dob">
+                    </div>
+                </div>
+                <div>
+                    <label for="">Gender</label>
+                    <div class="gender"> 
+                      <input type="radio" name="Gender" id="Gender"> Male
+                      <input type="radio" name="Gender" id="Gender"> Female
+                    </div> 
+                   
+                  </div>
+                <div id="error_message">
+
+                </div>
+                <button>Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <a class="footer-click" href="#">Contact Us</a>
+        <a class="footer-click" href="#">Privacy Policy</a>
+        <a class="footer-click" href="#">Terms of Use</a>
+        <a class="copyright">&#169;Doto 2</a>
+    </footer>
+
+    <script src="../js/signup.js"></script>
+</html>

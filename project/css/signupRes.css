@@ -1,0 +1,35 @@
+@media all and (max-width: 1024px){
+    *{
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 670px){
+    *{
+        margin: 0;
+    }
+    
+    /* header */
+    .menu{
+        display: none !important;
+    }
+
+    .regist{
+        padding-right: 40px;
+        margin-top: 5px !important;
+    }
+
+    .menu-icon{
+        display: block !important;
+    }
+
+    /* footer */
+    .footer-click{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,48 @@
+@media all and (max-width: 1024px){
+    *{
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 670px){
+    *{
+        margin: 0;
+    }
+    
+    /* header */
+    .menu{
+        display: none !important;
+    }
+
+    .regist{
+        padding-right: 40px;
+        margin-top: 5px !important;
+    }
+
+    .menu-icon{
+        display: block !important;
+    }
+
+    main{
+        justify-content: center !important;
+    }
+
+    .judul{
+        margin: 0 80px !important;
+        padding-top: 20px;
+    }
+
+    .search{
+        justify-content: center !important;
+    }
+
+    /* footer */
+    .footer-click{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #232327;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    color: #e8eaeb;
+    padding-top: 5px;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.menu{
+    display: flex;
+    padding: 0 20px;
+}
+
+.menu a{
+    color: #e8eaeb;
+}
+
+.page{
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.page a:hover{
+    color: rgb(223, 66, 66);
+}
+
+.header-right{
+    display: flex;
+}
+
+.header-right a{
+    color: #e8eaeb;
+}
+
+.regist{
+    margin-bottom: 5px;
+}
+
+.regist a:hover{
+    color: rgb(223, 66, 66);
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon:hover .menu-wrap{
+    display: block;
+    position: absolute;
+}
+
+.icon{
+    width: 30px;
+    height: 4px;
+    background-color: #e8eaeb;
+    margin: 6px 0;
+}
+
+.menu-wrap{
+    display: none;
+    box-shadow: 0 0 2px #111114;
+    padding: 13px 16px;
+    background-color: #303338;
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+.menu-wrap a{
+    color: #e8eaeb;
+}
+
+li{
+    list-style: none;
+}
+
+.menu-item{
+    text-align: right;
+}
+
+.menu-item:nth-child(even){
+    margin: 8px 0;
+}
+
+.menu-item a:hover{
+    color: rgb(223, 66, 66);
+}
+
+/* body */
+.body{
+    background-color: #303338;
+}
+
+.bg{
+    background-image: url(../assets/pic4.jpg);
+    background-size: cover;
+    padding: 220px 0;
+    text-align: center;
+    color: #e8eaeb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, serif;
+    font-size: 50px;
+}
+
+.text{
+    color: #e8eaeb;
+    text-align: center;
+    font-size: x-large;
+    padding: 50px 250px;
+    font-family: 'Courier New', Courier, monospace, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.game-view{
+    display: flex;
+    flex-direction: column;
+}
+
+.overview{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #e8eaeb;
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.slider img{
+    width: 70%;
+    height: 600px;
+}
+
+.arrow{
+    margin: 0 30px;
+    background-color: #303338;
+    color: white;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    background-color: #232327;
+    height: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer a {
+    padding: 0 25px;
+    color: #e8eaeb;
+    float: left;
+}
+
+.footer-click:hover {
+    text-decoration: underline;
+    color: white;
+}
